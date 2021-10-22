@@ -23,8 +23,8 @@ DHT_Unified dht(DHTPIN, DHTTYPE);
 uint32_t delayMS;
  
 //MQTT Credentials
-const char* ssid = "NETGEAR07";//setting your ap ssid
-const char* password = "magicalsheep499";//setting your ap psk
+const char* ssid = "";//setting your ap ssid
+const char* password = "";//setting your ap psk
 const char* mqttServer = "broker.emqx.io"; //MQTT URL
 const char* clientID = "ESP8266"; // client id username+0001
 const char* topic = "ESP8266/dataSensor"; //publish topic
